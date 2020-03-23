@@ -12,7 +12,9 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-   @freidns = 
+   @friends =
+   
+   erb :friends
 
   end
 end
